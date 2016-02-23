@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(int argc, char const* argv []){
+	int a=4,d,signo=1;
+	double pi, suma;
+	for(d=1; b<= 999999; b+=2){
+		suma = signo*((double)a/b);
+		pi = pi + suma;
+		signo = signo*-1;
+	}
+    printf("El valor de pi es: \n%1.54f",pi);
+    return 0;
+} 
